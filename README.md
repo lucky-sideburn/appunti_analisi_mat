@@ -2,7 +2,7 @@
 
 ## Riepilogo di alcuni insiemi numerici
 
-* Insieme Numeri Naturali $\N$
+* Insieme Numeri Naturali $\mathbb{N}$
 
 $\mathbb{N} =\{1,\ 2,\ 3,\ 4,\ 5,\ 6,\ 7,\ 8,\ 9,\ 10,\ ...\}$
 
@@ -30,7 +30,7 @@ Ed esempio:
 
 ## Assiomi dei numeri reali
 
-### Assiomi di ordinamento totale. Definisce la relazione $\leq$ tra coppie di elementi in $\R$ se:
+### Assiomi di ordinamento totale. Definisce la relazione $\leq$ tra coppie di elementi in $\mathbb{R}$ se:
 
 1. **Proprieta di dicotomia:** per ogni coppia di $a,b \in \mathbb{R}$ si ha $a \le b$ o $b \le a$
 2. **Proprietà di antisimmetria:** se $a \le b$ e $b \le a$ allora $a = b$
@@ -42,21 +42,21 @@ Ed esempio:
 1. **Proprietà commutativa della somma:** per ogni $a, b \in \mathbb{R}$ si ha che $ a + b = b + a$
 2. **Proprietà associativa della somma:**  $\forall\ a, b \in \mathbb{R}$ si ha $a + (b + c) = ( a + b ) + c$
 3. **Proprietà elemento neutro (lo zero) rispetto alla somma:** $0 + a = a + 0 = a $
-4. **Esistenza elemento opposto:** $\forall\ a \in \mathbb{R}$ esiste un $-a\ \in \R$ tale che $a + (-a) = 0$
+4. **Esistenza elemento opposto:** $\forall\ a \in \mathbb{R}$ esiste un $-a\ \in \mathbb{R}$ tale che $a + (-a) = 0$
 ------
 1. **Proprietà commutativa moltiplicazione:** $\forall\ a,b \in \mathbb{R}$ si ha che $ab = ba$
 2. **Proprietà associativa della moltiplicazione:** $\forall\ a,b \in \mathbb{R}$ si ha che $a(bc) = (ab) c$
-3. **Proprietà elemento neutro (il numero 1) rispetto alla moltiplicazione:**  $\forall\ a \in \R$ si ha che  $1a = a1 = a$
-4. **Esistenza elmento inverso:** $\forall\ a \in \mathbb{R}, a \ne 0$ esiste un solo $a^{-1} \in \mathbb{R}$ per cui $aa^{-1} = a^{-1}a = 1 $ Il numero $a^{-1}$ si esprime anche con $\frac{1}{a}$
+3. **Proprietà elemento neutro (il numero 1) rispetto alla moltiplicazione:**  $\forall\ a \in \mathbb{R}$ si ha che  $1a = a1 = a$
+4. **Esistenza elmento inverso:** $\forall\ a \in \mathbb{R}, a \mathbb{N}e 0$ esiste un solo $a^{-1} \in \mathbb{R}$ per cui $aa^{-1} = a^{-1}a = 1 $ Il numero $a^{-1}$ si esprime anche con $\frac{1}{a}$
 
 ## Massimo e minimo insieme numeri reali
 
 ### Definizione di maggiorante
 
-$L \in \R$ è maggiorante di A se $\forall\ a \in A$ si ha che $a \le L$
+$L \in \mathbb{R}$ è maggiorante di A se $\forall\ a \in A$ si ha che $a \le L$
 
 ### Definizione di minorante
-$l \in \R$ è minorante di ha se $\forall\ a \in A$ si ha che $a \ge l$
+$l \in \mathbb{R}$ è minorante di ha se $\forall\ a \in A$ si ha che $a \ge l$
 
 ### Massimo di un insieme
 
@@ -70,11 +70,11 @@ $l \in \R$ è minorante di ha se $\forall\ a \in A$ si ha che $a \ge l$
 
 ### Insieme limitato superiormente
 
-Dato $A \subseteq \R$ (A sottoinsieme di $\mathbb{R}$) $A$ è limitato sueriormente se esiste un maggiorante di $A$
+Dato $A \subseteq \mathbb{R}$ (A sottoinsieme di $\mathbb{R}$) $A$ è limitato sueriormente se esiste un maggiorante di $A$
 
 ### Insieme limitato inferiormente
 
-Dato $A \subseteq \R$ (A sottoinsieme di $\mathbb{R}$) $A$ è limitato inferiormente se esiste un minorante di $A$
+Dato $A \subseteq \mathbb{R}$ (A sottoinsieme di $\mathbb{R}$) $A$ è limitato inferiormente se esiste un minorante di $A$
 
 ### Estremo superiore
 
