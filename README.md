@@ -4,11 +4,11 @@
 
 * Insieme Numeri Naturali $\N$
 
-$\N =\{1,\ 2,\ 3,\ 4,\ 5,\ 6,\ 7,\ 8,\ 9,\ 10,\ ...\}$
+$\mathbb{N} =\{1,\ 2,\ 3,\ 4,\ 5,\ 6,\ 7,\ 8,\ 9,\ 10,\ ...\}$
 
 * Insieme dei numeri relativi $\Z$
 
-$\Z = \{-5,\ -4,\ -3,\ -2,\ -1,\ 0,\ 1,\ 2,\ 3,\ 4,\ 5,\ ...\}$
+$\mathbb{Z}= \{-5,\ -4,\ -3,\ -2,\ -1,\ 0,\ 1,\ 2,\ 3,\ 4,\ 5,\ ...\}$
 
 * Insieme dei numeri razionali relativi $\mathbb{Q}$
 
@@ -32,19 +32,58 @@ Ed esempio:
 
 ### Assiomi di ordinamento totale. Definisce la relazione $\leq$ tra coppie di elementi in $\R$ se:
 
-1. **Proprieta di dicotomia:** per ogni coppia di $a,b \in \R$ si ha $a \le b$ o $b \le a$
+1. **Proprieta di dicotomia:** per ogni coppia di $a,b \in \mathbb{R}$ si ha $a \le b$ o $b \le a$
 2. **Proprietà di antisimmetria:** se $a \le b$ e $b \le a$ allora $a = b$
 3. **Proprietà transitiva:** se $a \le b$ e $b \le c$ allora $a \le c$
-4. **Proprietà simmetrica** per ogni elemento $a \in \R$ vale $a \le a$
+4. **Proprietà simmetrica** per ogni elemento $a \in \mathbb{R}$ vale $a \le a$
 
 ### Alcuni assiomi relativi alle operazioni
 ------
-1. **Proprietà commutativa della somma:** per ogni $a, b \in \R$ si ha che $ a + b = b + a$
-2. **Proprietà associativa della somma:**  $\forall\ a, b \in R$ si ha $a + (b + c) = ( a + b ) + c$
+1. **Proprietà commutativa della somma:** per ogni $a, b \in \mathbb{R}$ si ha che $ a + b = b + a$
+2. **Proprietà associativa della somma:**  $\forall\ a, b \in \mathbb{R}$ si ha $a + (b + c) = ( a + b ) + c$
 3. **Proprietà elemento neutro (lo zero) rispetto alla somma:** $0 + a = a + 0 = a $
-4. **Esistenza elemento opposto:** $\forall\ a \in \R$ esiste un $-a\ \in \R$ tale che $a + (-a) = 0$
+4. **Esistenza elemento opposto:** $\forall\ a \in \mathbb{R}$ esiste un $-a\ \in \R$ tale che $a + (-a) = 0$
 ------
-1. **Proprietà commutativa moltiplicazione:** $\forall\ a,b \in \R$ si ha che $ab = ba$
-2. **Proprietà associativa della moltiplicazione:** $\forall\ a,b \in \R$ si ha che $a(bc) = (ab) c$
+1. **Proprietà commutativa moltiplicazione:** $\forall\ a,b \in \mathbb{R}$ si ha che $ab = ba$
+2. **Proprietà associativa della moltiplicazione:** $\forall\ a,b \in \mathbb{R}$ si ha che $a(bc) = (ab) c$
 3. **Proprietà elemento neutro (il numero 1) rispetto alla moltiplicazione:**  $\forall\ a \in \R$ si ha che  $1a = a1 = a$
-4. **Esistenza elmento inverso:** $\forall\ a \in \R, a \ne 0$ esiste un solo $a^{-1} \in \R$ per cui $aa^{-1} = a^{-1}a = 1 $ Il numero $a^{-1}$ si esprime anche con $\frac{1}{a}$
+4. **Esistenza elmento inverso:** $\forall\ a \in \mathbb{R}, a \ne 0$ esiste un solo $a^{-1} \in \mathbb{R}$ per cui $aa^{-1} = a^{-1}a = 1 $ Il numero $a^{-1}$ si esprime anche con $\frac{1}{a}$
+
+## Massimo e minimo insieme numeri reali
+
+### Definizione di maggiorante
+
+$L \in \R$ è maggiorante di A se $\forall\ a \in A$ si ha che $a \le L$
+
+### Definizione di minorante
+$l \in \R$ è minorante di ha se $\forall\ a \in A$ si ha che $a \ge l$
+
+### Massimo di un insieme
+
+1. se M è un maggiorante di A
+2. se $M \in A$
+
+### Minimo di un insieme
+
+1. se m è un minorante di A
+2. se $m \in A$
+
+### Insieme limitato superiormente
+
+Dato $A \subseteq \R$ (A sottoinsieme di $\mathbb{R}$) $A$ è limitato sueriormente se esiste un maggiorante di $A$
+
+### Insieme limitato inferiormente
+
+Dato $A \subseteq \R$ (A sottoinsieme di $\mathbb{R}$) $A$ è limitato inferiormente se esiste un minorante di $A$
+
+### Estremo superiore
+
+Sia $A \subseteq \mathbb{R}$ limitato superiormente. L'estremo superiore di $A$ è il minimo dei maggioranti di $A$ e si indica con "sup $A$"
+
+### Estremo inferiore
+
+Sia $A \subseteq \mathbb{R}$ limitato inferiormente. L'estremo inferiore di $A$ è il più grande dei minoranti di $A$ e si indica con "inf $A$"
+
+
+
+
