@@ -6,7 +6,7 @@
 
 $\mathbb{N} =\{1,\ 2,\ 3,\ 4,\ 5,\ 6,\ 7,\ 8,\ 9,\ 10,\ ...\}$
 
-* Insieme dei numeri relativi $\Z$
+* Insieme dei numeri relativi $\mathbb{Z}$
 
 $\mathbb{Z}= \{-5,\ -4,\ -3,\ -2,\ -1,\ 0,\ 1,\ 2,\ 3,\ 4,\ 5,\ ...\}$
 
@@ -70,7 +70,7 @@ $l \in \mathbb{R}$ è minorante di ha se $\forall\ a \in A$ si ha che $a \ge l$
 
 ### Insieme limitato superiormente
 
-Dato $A \subseteq \mathbb{R}$ (A sottoinsieme di $\mathbb{R}$) $A$ è limitato sueriormente se esiste un maggiorante di $A$
+Dato $A \subseteq \mathbb{R}$ (A sottoinsieme di $\mathbb{R}$) $A$ è limitato superiormente se esiste un maggiorante di $A$
 
 ### Insieme limitato inferiormente
 
