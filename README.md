@@ -92,7 +92,7 @@ Sia $A \subseteq \mathbb{R}$ limitato inferiormente. L'estremo inferiore di $A$ 
 
 Si definisce modulo o valore assoluto di $a$ il massimo tra $a$ ed il suo opposto $-a$
 
-$\mid a \mid = max\{a,-a\}$
+$\mid a \mid\ = max\{a,-a\}$
 
 ### Distanza
 
@@ -100,7 +100,7 @@ Per $x,y \in \mathbb{R}$ la distanza tra $x$ e $y$ si definisce con:
 
 $d(x,y) =\  \mid x - y \mid$
 
-#### Proprietà distanza
+#### (Alcune) Proprietà distanza
 
 * La distanza tra $x$ e $y$ è maggiore o uguale a 0 per ogni $x$ e $y$ appartenenti all'insieme dei numeri reali.
 
@@ -112,3 +112,7 @@ $d(x,y) = 0$ $\iff  x = y $
 
 * La distanza tra $x$ e $y$ è uguale alla distanza tra $y$ e $x" per ogni $x$ e $y$ appartenenti all'insieme dei numeri reali
 $d(x,y) = d(y,x)$ , $ \forall\ x,y \in \mathbb{R}$ 
+
+### Intorno sferico
+
+Dato $x0$
