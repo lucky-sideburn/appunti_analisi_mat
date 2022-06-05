@@ -1,5 +1,9 @@
 # Appunti Analisi Matematica
 
+## Simboli matematici in ordine sparso usati in questo how to...
+
+$\iff$ se e solo se (coimplicazione logica)
+
 ## Riepilogo di alcuni insiemi numerici
 
 * Insieme Numeri Naturali $\mathbb{N}$
@@ -84,6 +88,27 @@ Sia $A \subseteq \mathbb{R}$ limitato superiormente. L'estremo superiore di $A$ 
 
 Sia $A \subseteq \mathbb{R}$ limitato inferiormente. L'estremo inferiore di $A$ è il più grande dei minoranti di $A$ e si indica con "inf $A$"
 
+## Topologia della retta reale
 
+Si definisce modulo o valore assoluto di $a$ il massimo tra $a$ ed il suo opposto $-a$
 
+$\mid a \mid = max\{a,-a\}$
 
+### Distanza
+
+Per $x,y \in \mathbb{R}$ la distanza tra $x$ e $y$ si definisce con:
+
+$d(x,y) =\  \mid x - y \mid$
+
+#### Proprietà distanza
+
+* La distanza tra $x$ e $y$ è maggiore o uguale a 0 per ogni $x$ e $y$ appartenenti all'insieme dei numeri reali.
+
+$d(x,y) \ge 0$ , $\forall\ x,y \in  \mathbb{R}$
+
+* La distanza tra $x$ e $y$ è uguale a 0 se e solo se $x$ è uguale a $y$.
+
+$d(x,y) = 0$ $\iff  x = y $
+
+* La distanza tra $x$ e $y$ è uguale alla distanza tra $y$ e $x" per ogni $x$ e $y$ appartenenti all'insieme dei numeri reali
+$d(x,y) = d(y,x)$ , $ \forall x,y \in \mathbb{R}$ 
