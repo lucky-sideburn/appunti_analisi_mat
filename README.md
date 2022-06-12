@@ -112,9 +112,8 @@ $d(x,y) \ge 0$ , $\forall\ x,y \in  \mathbb{R}$
 
 $d(x,y) = 0$ $\iff  x = y $
 
-* La distanza tra $x$ e $y$ è uguale alla distanza tra $y$ e $x" per ogni $x$ e $y$ appartenenti all'insieme dei numeri reali
-$d(x,y) = d(y,x)$ , $ \forall\ x,y \in \mathbb{R}$ 
-
+* La distanza tra $x$ e $y$ è uguale alla distanza tra $y$ e $x$ per ogni $x$ e $y$ appartenenti all'insieme dei numeri reali
+$d(x,y) = d(y,x)$ , $ \forall\ x,y \in \mathbb{R}$
 ### Intorno sferico
 
 Dato $x0$
