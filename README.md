@@ -94,7 +94,7 @@ Sia $A \subseteq \mathbb{R}$ limitato inferiormente. L'estremo inferiore di $A$ 
 
 Si definisce modulo o valore assoluto di $a$ il massimo tra $a$ ed il suo opposto $-a$
 
-$\mid a \mid\ = max{\{a,-a\}}$
+$\mid a \mid\ = max\ ${$a,-a$}
 
 ### Distanza
 
