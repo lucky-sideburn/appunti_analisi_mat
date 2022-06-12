@@ -34,7 +34,9 @@ Ed esempio:
 
 ## Assiomi dei numeri reali
 
-### Assiomi di ordinamento totale. Definisce la relazione $\leq$ tra coppie di elementi in $\mathbb{R}$ se:
+### Assiomi di ordinamento totale. 
+
+Definisce la relazione $\leq$ tra coppie di elementi in $\mathbb{R}$ se:
 
 1. **Proprieta di dicotomia:** per ogni coppia di $a,b \in \mathbb{R}$ si ha $a \le b$ o $b \le a$
 2. **Proprietà di antisimmetria:** se $a \le b$ e $b \le a$ allora $a = b$
