@@ -116,4 +116,12 @@ $d(x,y) = 0$ $\iff  x = y $
 $d(x,y) = d(y,x)$ , $ \forall\ x,y \in \mathbb{R}$
 ### Intorno sferico
 
-Dato $x0$
+Dato $x_0 \in \mathbb{R}$ e $r > 0$  definiamo intorno sferico di centro $x_0$ e raggio $r$ l'insieme di tutti i numeri reali la cui distanza da $x_0$ è minore di $r$
+
+Rappresentazione grafica dell'intorno sferico:
+
+![intorno_sferico](images/intorno_sferico.png)
+
+Spiegazione definizione:
+
+$B_r(x_0) =\ ${$x \in \mathbb{R}: d(x,x_0) < r$}$\ = \ ${$\ x \in \mathbb{R}: |x - x_0| < r $} 
