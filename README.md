@@ -4,6 +4,11 @@
 
 $\iff$ se e solo se (coimplicazione logica)
 
+$\subseteq$ sotto insieme di
+
+$\cap$ Intersezione
+
+$:$ tale che nelle definizioni di insieme
 ## Riepilogo di alcuni insiemi numerici
 
 * Insieme Numeri Naturali $\mathbb{N}$
@@ -124,4 +129,60 @@ Rappresentazione grafica dell'intorno sferico:
 
 Spiegazione definizione:
 
-$B_r(x_0) =\ ${$x \in \mathbb{R}: d(x,x_0) < r$}$\ = \ ${$\ x \in \mathbb{R}: |x - x_0| < r $} 
+$B_r(x_0) =\ ${$x \in \mathbb{R}: d(x,x_0) < r$}$\ = \ ${$\ x \in \mathbb{R}: |x - x_0| < r $}
+
+### Insieme Aperto
+
+Un insieme $A \subseteq \mathbb{R}$ si dice aperto se per ogni $x \in \mathbb{R}$ esiste un $r > 0$ (quindi un raggio dell'intorno sferico) tale che $B_r(x_0)$ è contenuto in $A$
+
+Quindi è aperto quando l'intorno sferico è contentuo nell'insieme oggetto dell'analisi.
+
+### Esempio Insieme Aperto
+
+Di seguito un esempio di un insieme aperto:
+
+![insieme_aperto](images/insieme_aperto.png)
+
+L'insieme descritto dall'immagine è $(a, + \infty)\ =\ ${$ x \in \mathbb{R}: x > a $}
+
+Infatti avendo dichiarato $x > a$ 
+
+e immaginando che $r$ sia uguale sempre a $x - a$ ovvero la distanza tra $x$ e $a$ qualsiasi intorno sferico è contenuto in $A$
+
+Quindi:
+
+L'intorno sferico di x è contenuto nell'insieme $(a, +\infty) $
+
+### Punti di accumulazione
+
+Sia $A \subseteq \mathbb{R}$. Un punto $x \in A$ si dice **punto di accumulazione** per $A$ se in ogni intorno di $x$ è presente almeno un punto di $A$ diverso da $x$ oppure
+
+$x_0$ è un punto di accumulazione per l’insieme $A$ se in ogni intorno di $x_0$ cadono infiniti elementi di $A$.
+
+### Insieme chiuso (da rivedere)
+
+Un insieme $D$ è chiuso se e solo se contiene tutti i suoi punti di accumulazione.
+
+### Principio di induzione 
+
+Una proposizione che da un indice $n \in N$ è vera per $n = 1$ e per $n + 1$. Allora è vera per ogni $n \in N$.
+
+## Funzioni
+### Definizione
+
+Dati due insiemi $A$ e $B$ si dice funzione di $A$ in $B$ una legge che associa ad un elemento di $A$ uno ed un solo elemento di $B$
+
+Di seguito il simbolo per definire la funzion di $A$ in $B$
+
+$f: A \longrightarrow B $
+
+$A$ è il dominio
+
+$B$ è il codominio
+
+L'elemento $y$ di $B$ è stato associato tramite $f$ all'elemento $x$ di $A$ e si indica con 
+
+$ y = f(x) $ (si chiama anche immagine di $x$)
+
+
+
