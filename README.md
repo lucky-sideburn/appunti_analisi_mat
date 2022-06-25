@@ -182,7 +182,6 @@ $B$ è il codominio
 
 L'elemento $y$ di $B$ è stato associato tramite $f$ all'elemento $x$ di $A$ e si indica con 
 
-$ y = f(x) $ (si chiama anche immagine di $x$)
-
+$y = f(x)$ (si chiama anche immagine di $x$)
 
 
