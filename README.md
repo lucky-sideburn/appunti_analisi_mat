@@ -1,3 +1,6 @@
+* Table of contents
+[[_TOC_]]
+
 # Appunti Analisi Matematica
 
 ## Simboli matematici in ordine sparso usati in questo how to...
